@@ -1,0 +1,10 @@
+pdfplumber
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+psycopg2
+sqlalchemy
+pandas
+camelot-py~=0.10.1
+PyPDF2
+opencv-python
