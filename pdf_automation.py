@@ -15,7 +15,7 @@ from main_functions import remaining_arrivals
 from utils import mail_sent, logger, today_date, date1, send_log
 
 today_date = today_date
-con = psycopg2.connect(database="PdfExtractor", user="postgres", password="1234", host="localhost", port="5432")
+con = psycopg2.connect(database="PdfExtractor_Production", user="postgres", password="ID1GaqCwgi9iFzTY0qes", host="database-1.c3spbyyhkc00.us-east-1.rds.amazonaws.com", port="5432")
 
 cursor = con.cursor()
 

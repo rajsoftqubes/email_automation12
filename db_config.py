@@ -6,7 +6,7 @@ db_days = 0
 
 date2 = (datetime.datetime.today() - datetime.timedelta(db_days)).strftime('%m/%d/%Y')
 
-con = psycopg2.connect(database="PdfExtractor", user="postgres", password="1234", host="localhost", port="5432")
+con = psycopg2.connect(database="PdfExtractor_Production", user="postgres", password="ID1GaqCwgi9iFzTY0qes", host="database-1.c3spbyyhkc00.us-east-1.rds.amazonaws.com", port="5432")
 
 cursor = con.cursor()
 
