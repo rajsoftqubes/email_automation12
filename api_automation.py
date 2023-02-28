@@ -10,7 +10,7 @@ from google.auth.transport.requests import Request
 import base64
 from main_functions import expected_arrivals, gstchkin_csv, guestlist_csv, inhouseguests, arrival_landscape_new, \
 	guest_list, remaining_arrivals
-from utils import mail_sent, send_log,logger
+from utils import mail_sent, send_log, logger
 import psycopg2
 
 SCOPES = ['https://www.googleapis.com/auth/gmail.modify', 'https://www.googleapis.com/auth/gmail.send']
@@ -86,7 +86,7 @@ with open('property_codes.csv') as csvfile:
 
 		today_date = (datetime.datetime.today() - datetime.timedelta(days)).strftime('%Y-%m-%d')
 
-		file_path = f'{main_dir}\\Raj Chudasama\\{today_date}\\{property_name}'
+		file_path = f'{main_dir}\\RajChudasama\\{today_date}\\{property_name}'
 		if not os.path.exists(file_path):
 			os.makedirs(file_path)
 

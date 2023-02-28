@@ -58,7 +58,7 @@ def email_automation():
 
 			main_dir = os.getcwd()
 
-			file_path = f'{main_dir}\\Raj Chudasama\\{today_date}\\{property_name}'
+			file_path = f'{main_dir}\\RajChudasama\\{today_date}\\{property_name}'
 			if not os.path.exists(file_path):
 				os.makedirs(file_path)
 			pdf_files = []
